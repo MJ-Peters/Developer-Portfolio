@@ -11,9 +11,9 @@ export const MY_EDUCATIONS: Array<Education> = [
 		logo: Assets.UoB,
 		name: 'Master\'s Degree',
 		organization: 'University of Bristol',
-		period: { from: new Date(2022, 8, 19), to: new Date(2023, 8, 8) },
+		period: { from: new Date(2022, 8), to: new Date(2023, 8) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
+		slug: 'University-of-Bristol',
 		subjects: ['Algorithms and Data structures', 'Python', 'JavaScript', 'HTML', 'CSS', 'AWS']
 	},
 	{
@@ -23,9 +23,9 @@ export const MY_EDUCATIONS: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'University of Southampton',
-		period: { from: new Date(2018, 8, 9), to: new Date(2022, 8, 10) },
+		period: { from: new Date(2018, 8), to: new Date(2022, 8) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
+		slug: 'University-of-Southampton',
 		subjects: ['MATLAB', 'Python']
 	}
 ];
