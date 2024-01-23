@@ -25,7 +25,7 @@ const MY_PROJECTS: Array<Project> = [
 	//-------------------------------------------------------------------------------------------
 	{
 		slug: 'placeholder-2',
-		color: '#blue',  // Hex codes also work
+		color: 'blue',  // Hex codes also work
 		description:
 			'Placeholder description.',
 		shortDescription:
