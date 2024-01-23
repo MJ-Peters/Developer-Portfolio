@@ -20,7 +20,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		degree: 'BEng Civil Engineering with Architecture',
 		description: 'Bachelor\'s Degree',
 		location: 'Southampton, UK',
-		logo: Assets.Unknown,
+		logo: Assets.UoS,
 		name: '',
 		organization: 'University of Southampton',
 		period: { from: new Date(2018, 8), to: new Date(2022, 8) },

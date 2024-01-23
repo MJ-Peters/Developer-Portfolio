@@ -74,7 +74,8 @@ const Assets = {
 	MsSQLServer: a('MS-SQL-Server.svg'),
 	Azure: a('Azure.svg'),
 	EY: a('EY.svg'),
-	UoB: a('UoB.png')
+	UoB: a('UoB.png'),
+	UoS: a('UoS.png')
 };
 
 export default Assets;
