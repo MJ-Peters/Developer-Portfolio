@@ -14,7 +14,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2022, 8), to: new Date(2023, 8) },
 		shortDescription: '',
 		slug: 'University-of-Bristol',
-		subjects: ['Algorithms and Data structures', 'Python', 'JavaScript', 'HTML', 'CSS', 'AWS']
+		subjects: ['Financial Technology', 'Large Scale Data Engineering', 'Sofware Development, Programming, and Algorithms', 'Data Analytics']
 	},
 	{
 		degree: 'BEng Civil Engineering with Architecture',
@@ -26,6 +26,6 @@ export const MY_EDUCATIONS: Array<Education> = [
 		period: { from: new Date(2018, 8), to: new Date(2022, 8) },
 		shortDescription: '',
 		slug: 'University-of-Southampton',
-		subjects: ['MATLAB', 'Python']
+		subjects: ['Structural Design', 'Finite Element Analysis', 'Hydraulic Engineering', 'Geotechnical Engineering']
 	}
 ];

@@ -8,7 +8,7 @@ const MY_PROJECTS: Array<Project> = [
 	//-------------------------------------------------------------------------------------------
 	{
 		slug: 'AlgoTrading',
-		color: 'green',
+		color: 'blue',
 		description:
 			'Explore my in-depth investigation into PRDE trader agents within the Bristol Stock Exchange (BSE), an intricately crafted minimal limit-order-book-based financial exchange implemented in Python. The primary goal of this project is to enhance the capabilities of trader agents by introducing the PRDE agent, an extension of PRZI and PRSH, incorporating the powerful differential evolution (DE) genetic algorithm for optimizing stochastic hill-climbing. I conducted homogeneous experiments on BSE to assess the PRDE agent\'s performance, and employed statistical testing, focusing on key parameters: population size (k) and differential weight (F). I identified that F is a significant factor influencing performance, while k exhibited less impact. I then implemented my PRADE trader agent, that proactively adjusts the value of F to maximise profitability across a diverse array of market conditions.',
 		shortDescription:
@@ -19,13 +19,13 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date()
 		},
-		skills: getSkills('angular', 'ts', 'tailwind'),
+		skills: getSkills('python'),
 		type: 'Simulation and Statistical Testing'
 	},
 	//-------------------------------------------------------------------------------------------
 	{
 		slug: 'placeholder-2',
-		color: '#ff3e00',  // Words like "blue" work too
+		color: '#blue',  // Hex codes also work
 		description:
 			'Placeholder description.',
 		shortDescription:
