@@ -3,27 +3,27 @@ import type { Education } from './types';
 
 export const MY_EDUCATIONS: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'MSc Financial Technology with Data Science',
 		description: '',
-		location: 'Tunisia',
+		location: 'Bristol, UK',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'University of Bristol',
+		period: { from: new Date(2022, 9, 19), to: new Date(2023, 9, 8) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		subjects: ['Algorithms and Data structures', 'Python', 'JavaScript', 'HTML', 'CSS', 'AWS']
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'BEng Civil Engineering with Architecture',
 		description: '',
-		location: 'USA',
+		location: 'Southampton, UK',
 		logo: Assets.Unknown,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'University of Southampton',
+		period: { from: new Date(2018, 9, 24), to: new Date(2022, 6, 10) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		subjects: ['MATLAB', 'Python']
 	}
 ];
