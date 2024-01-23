@@ -49,7 +49,7 @@ export const HOME: HomePageParams = {
 	name: 'Marshall',
 	lastName: 'PETERS',
 	description:
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!',
+		'A Data Scientist with an interest in Machnine Learning and Software Engineering',
 	links: [
 		{ 
 			platform: Platform.GitHub,
