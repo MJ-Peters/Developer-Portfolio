@@ -2,52 +2,23 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import { ContractType, type Experience } from './types';
 
+// Have the most recent at the top
 const MY_EXPERIENCES: Array<Experience> = [
 	{
-		slug: 'open-sourcer',
-		company: 'Self-employed',
-		description: 'Creating awesome tools for developers.',
-		contract: ContractType.SelfEmployed,
-		type: 'Software Development',
+		slug: 'data-analyst',
+		company: 'EY',
+		description: '',
+		contract: ContractType.FullTime,
+		type: 'Data Science and Data Analytics',
 		location: 'Home',
 		period: { from: new Date() },
-		skills: getSkills('ts', 'js'),
-		name: 'Open Source Developer',
-		color: 'red',
+		skills: getSkills('python', 'ms-sql-server', 'azure'),
+		name: 'Forensic Data Analyst - Associate',
+		color: 'yellow',
 		links: [],
-		logo: Assets.Unknown,
+		logo: Assets.EY,
 		shortDescription: ''
 	},
-	{
-		slug: 'software-freelance',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date() },
-		skills: getSkills('svelte', 'ts', 'sass', 'css', 'html', 'js'),
-		name: 'Freelancer',
-		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
-	},
-	{
-		slug: 'software-freelance-junior',
-		company: 'Self-employed',
-		description: 'Creating awesome applications for customers.',
-		contract: ContractType.Freelance,
-		type: 'Software Development',
-		location: 'Home',
-		period: { from: new Date(2022, 0, 1), to: new Date() },
-		skills: getSkills('css', 'html', 'js'),
-		name: 'Junior Freelancer',
-		color: 'green',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: ''
-	}
 ];
 
 export default MY_EXPERIENCES;

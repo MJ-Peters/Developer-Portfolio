@@ -72,7 +72,8 @@ const Assets = {
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
 	MsSQLServer: a('MS-SQL-Server.svg'),
-	Azure: a('Azure.svg')
+	Azure: a('Azure.svg'),
+	EY: a('EY.svg')
 };
 
 export default Assets;
