@@ -4,15 +4,15 @@ import type { Project } from './types';
 
 const MY_PROJECTS: Array<Project> = [
 	{
-		slug: 'slick-portfolio-angular',
-		color: '#5e95e3',
+		slug: 'placeholder-1',
+		color: 'blue',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Placeholder description.',
 		shortDescription:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
+			'Placeholder short description.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Unknown,
-		name: 'Slick Portfolio',
+		logo: Assets.Python,
+		name: 'Placeholder 1',
 		period: {
 			from: new Date()
 		},
@@ -20,15 +20,15 @@ const MY_PROJECTS: Array<Project> = [
 		type: 'Website Template'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
-		color: '#ff3e00',
+		slug: 'placeholder-2',
+		color: '#ff3e00',  // Words like "blue" work too
 		description:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Placeholder description.',
 		shortDescription:
-			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',
+			'Placeholder short description.',
 		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
-		logo: Assets.Svelte,
-		name: 'Slick Portfolio',
+		logo: Assets.Python,
+		name: 'Placeholder 2',
 		period: {
 			from: new Date()
 		},
