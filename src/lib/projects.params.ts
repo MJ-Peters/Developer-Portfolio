@@ -5,22 +5,24 @@ import type { Project } from './types';
 // Have the most recent at the top
 // Months are 0-indexxed, i.e. September = 8 not 9
 const MY_PROJECTS: Array<Project> = [
+	//-------------------------------------------------------------------------------------------
 	{
-		slug: 'placeholder-1',
-		color: 'blue',
+		slug: 'AlgoTrading',
+		color: 'green',
 		description:
-			'Placeholder description.',
+			'Explore my in-depth investigation into PRDE trader agents within the Bristol Stock Exchange (BSE), an intricately crafted minimal limit-order-book-based financial exchange implemented in Python. The primary goal of this project is to enhance the capabilities of trader agents by introducing the PRDE agent, an extension of PRZI and PRSH, incorporating the powerful differential evolution (DE) genetic algorithm for optimizing stochastic hill-climbing. I conducted homogeneous experiments on BSE to assess the PRDE agent\'s performance, and employed statistical testing, focusing on key parameters: population size (k) and differential weight (F). I identified that F is a significant factor influencing performance, while k exhibited less impact. I then implemented my PRADE trader agent, that proactively adjusts the value of F to maximise profitability across a diverse array of market conditions.',
 		shortDescription:
-			'Placeholder short description.',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+			'Investigating the performance of adaptive trading agents in a simulated financial exchange.',
+		links: [{ to: 'https://github.com/MJ-Peters/PRDE-Trader-Evaluation-and-Improvement', label: 'GitHub' }],
 		logo: Assets.Python,
-		name: 'Placeholder 1',
+		name: 'Parameterized Response Adaptive Differential Evolution (PRADE) Trader Agents',
 		period: {
 			from: new Date()
 		},
 		skills: getSkills('angular', 'ts', 'tailwind'),
-		type: 'Website Template'
+		type: 'Simulation and Statistical Testing'
 	},
+	//-------------------------------------------------------------------------------------------
 	{
 		slug: 'placeholder-2',
 		color: '#ff3e00',  // Words like "blue" work too
@@ -35,7 +37,7 @@ const MY_PROJECTS: Array<Project> = [
 			from: new Date()
 		},
 		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Website Template',
+		type: 'Placeholder',
 		screenshots: [
 			{
 				label: 'screen 1',
@@ -63,6 +65,7 @@ const MY_PROJECTS: Array<Project> = [
 			}
 		]
 	}
+	//-------------------------------------------------------------------------------------------
 ];
 
 export default MY_PROJECTS;
