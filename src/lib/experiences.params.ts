@@ -10,7 +10,7 @@ const MY_EXPERIENCES: Array<Experience> = [
 		description: '',
 		contract: ContractType.FullTime,
 		type: 'Data Science and Data Analytics',
-		location: 'Home',
+		location: 'London, UK',
 		period: { from: new Date(2023, 9, 7) },
 		skills: getSkills('python', 'ms-sql-server', 'azure'),
 		name: 'Forensic Data Analyst - Associate',
