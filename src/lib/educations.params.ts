@@ -1,6 +1,8 @@
 import Assets from './data/assets';
 import type { Education } from './types';
 
+// Have the most recent at the top
+// Months are 0-indexxed, i.e. September = 8 not 9
 export const MY_EDUCATIONS: Array<Education> = [
 	{
 		degree: 'MSc Financial Technology with Data Science',
@@ -9,7 +11,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		logo: Assets.UoB,
 		name: 'Master\'s Degree',
 		organization: 'University of Bristol',
-		period: { from: new Date(2022, 9, 19), to: new Date(2023, 9, 8) },
+		period: { from: new Date(2022, 8, 19), to: new Date(2023, 8, 8) },
 		shortDescription: '',
 		slug: 'dummy-education-item',
 		subjects: ['Algorithms and Data structures', 'Python', 'JavaScript', 'HTML', 'CSS', 'AWS']
@@ -21,7 +23,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		logo: Assets.Unknown,
 		name: '',
 		organization: 'University of Southampton',
-		period: { from: new Date(2018, 9, 24), to: new Date(2022, 6, 10) },
+		period: { from: new Date(2018, 8, 9), to: new Date(2022, 8, 10) },
 		shortDescription: '',
 		slug: 'dummy-education-item-2',
 		subjects: ['MATLAB', 'Python']

@@ -2,6 +2,8 @@ import Assets from './data/assets';
 import { getSkills } from './skills.params';
 import type { Project } from './types';
 
+// Have the most recent at the top
+// Months are 0-indexxed, i.e. September = 8 not 9
 const MY_PROJECTS: Array<Project> = [
 	{
 		slug: 'placeholder-1',
