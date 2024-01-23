@@ -73,7 +73,8 @@ const Assets = {
 	Postcss: a('postcss.svg'),
 	MsSQLServer: a('MS-SQL-Server.svg'),
 	Azure: a('Azure.svg'),
-	EY: a('EY.svg')
+	EY: a('EY.svg'),
+	UoB: a('UoB.png')
 };
 
 export default Assets;

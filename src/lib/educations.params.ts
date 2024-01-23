@@ -6,7 +6,7 @@ export const MY_EDUCATIONS: Array<Education> = [
 		degree: 'MSc Financial Technology with Data Science',
 		description: '',
 		location: 'Bristol, UK',
-		logo: Assets.Unknown,
+		logo: Assets.UoB,
 		name: '',
 		organization: 'University of Bristol',
 		period: { from: new Date(2022, 9, 19), to: new Date(2023, 9, 8) },
