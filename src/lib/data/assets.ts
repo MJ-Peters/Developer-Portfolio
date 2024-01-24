@@ -76,7 +76,8 @@ const Assets = {
 	EY: a('EY.svg'),
 	UoB: a('UoB.png'),
 	UoS: a('UoS.png'),
-	StravaClone: a('StravaCloneLogo.png')
+	StravaClone: a('StravaCloneLogo.png'),
+	DPay: a('DPayLogo.png')
 };
 
 export default Assets;

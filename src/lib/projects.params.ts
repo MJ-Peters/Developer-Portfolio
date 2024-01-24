@@ -18,13 +18,31 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.StravaClone,
 		name: 'Outdoor Activity Tracker',
 		period: {
-			 from: new Date(2024, 0)
+			 from: new Date(2023, 0)
 		},
 		skills: getSkills('python'),
 		type: 'Full-Stack App Development'
 	},
 	//-------------------------------------------------------------------------------------------
 	
+	{
+		slug: 'DPay',
+		color: 'blue',
+		description:
+			'',
+		shortDescription:
+			'A decentralised payments platform.',
+		links: [{ to: 'https://github.com/rw19842/DPay-proof-of-concept', label: 'GitHub' }],
+		logo: Assets.DPay,
+		name: 'DPay',
+		period: {
+			from: new Date(2023, 3), to: new Date(2023, 4)
+		},
+		skills: getSkills('HTML', 'CSS', 'JavaScript'),
+		type: 'Front-End App Development'
+	},
+	//-------------------------------------------------------------------------------------------
+
 	{
 		slug: 'AlgoTrading',
 		color: 'blue',
@@ -34,7 +52,7 @@ const MY_PROJECTS: Array<Project> = [
 			'Investigating the performance of adaptive trading agents in a simulated financial exchange.',
 		links: [{ to: 'https://github.com/MJ-Peters/PRDE-Trader-Evaluation-and-Improvement', label: 'GitHub' }],
 		logo: Assets.Python,
-		name: 'Parameterized Response Adaptive Differential Evolution (PRADE) Trader Agents',
+		name: 'PRADE Trader Agents',
 		period: {
 			 from: new Date(2022, 10), to: new Date(2023, 1)
 		},
