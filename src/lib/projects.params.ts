@@ -18,7 +18,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.StravaClone,
 		name: 'Outdoor Activity Tracker',
 		period: {
-			 from: new Date(2023, 0)
+			 from: new Date(2024, 0)
 		},
 		skills: getSkills('python'),
 		type: 'Full-Stack App Development'
