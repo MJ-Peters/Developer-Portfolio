@@ -47,7 +47,7 @@ export const getPlatfromIcon = (platform: Platform): Icons => {
 export const HOME: HomePageParams = {
 	title: 'Home',
 	name: 'Marshall',
-	lastName: 'PETERS',
+	lastName: 'Peters',
 	description:
 		'A Data Scientist with an interest in Machnine Learning and Software Engineering',
 	links: [
