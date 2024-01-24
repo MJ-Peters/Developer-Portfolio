@@ -15,7 +15,7 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'A work in progress activity tracker.',
 		links: [{ to: '', label: 'GitHub' }],
-		logo: Assets.Python,
+		logo: Assets.StravaClone
 		name: 'Outdoor Activity Tracker',
 		period: {
 			 from: new Date(2024, 0)

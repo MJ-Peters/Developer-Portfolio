@@ -75,7 +75,8 @@ const Assets = {
 	Azure: a('Azure.svg'),
 	EY: a('EY.svg'),
 	UoB: a('UoB.png'),
-	UoS: a('UoS.png')
+	UoS: a('UoS.png'),
+	StravaClone: a('StravaCloneLogo.png')
 };
 
 export default Assets;
