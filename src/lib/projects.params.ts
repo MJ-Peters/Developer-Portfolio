@@ -38,7 +38,7 @@ const MY_PROJECTS: Array<Project> = [
 		period: {
 			from: new Date(2023, 3), to: new Date(2023, 4)
 		},
-		skills: getSkills('html', 'css', 'javascript'),
+		skills: getSkills('html', 'css', 'js'),
 		type: 'Front-End App Development'
 	},
 	//-------------------------------------------------------------------------------------------
