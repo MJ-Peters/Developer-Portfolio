@@ -36,7 +36,7 @@ const MY_PROJECTS: Array<Project> = [
 		logo: Assets.Python,
 		name: 'Parameterized Response Adaptive Differential Evolution (PRADE) Trader Agents',
 		period: {
-			 from: new Date(2022, 10), to: new Date(2022, 1)
+			 from: new Date(2022, 10), to: new Date(2023, 1)
 		},
 		skills: getSkills('python'),
 		type: 'Simulation and Statistical Testing'
