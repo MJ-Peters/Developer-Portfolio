@@ -7,14 +7,32 @@ import type { Project } from './types';
 const MY_PROJECTS: Array<Project> = [
 	//-------------------------------------------------------------------------------------------
 	
+	// {
+	// 	slug: 'StravaClone',
+	// 	color: 'purple',
+	// 	description:
+	// 		'I embarked on this project at the onset of the new year with a dual purpose in mind. Primarily, I aimed to elevate my software development proficiency beyond rudimentary text-based applications in Python. The secondary motivation behind this endeavour is rooted in my decision to craft an activity tracker, a deliberate choice among the myriad of applications one could develop. \n\n My inspiration for choosing an activity tracker stems from my current pursuit of training for an Ironman 70.3 triathlon. The diverse range of activities involved in my training regimen has captivated my interest. Harnessing the wealth of activity data generated during these rigorous sessions, I am utilizing it as a robust testing ground to refine and advance the capabilities of this application. Through this ongoing project, I am not only honing my coding skills but also creating a tool that resonates with my personal journey and passion for fitness. \n\n A more detailed overview of this project, how it\'s progressing, and the problems I\'ve encountered can be found in the README file on the GitHub Repo.',
+	// 	shortDescription:
+	// 		'A work in progress activity tracker.',
+	// 	links: [{ to: 'https://github.com/MJ-Peters/Live-Fitness-Tracker', label: 'GitHub' }],
+	// 	logo: Assets.StravaClone,
+	// 	name: 'Outdoor Activity Tracker',
+	// 	period: {
+	// 		 from: new Date(2024, 0)
+	// 	},
+	// 	skills: getSkills('python'),
+	// 	type: 'Full-Stack App Development'
+	// },
+	//-------------------------------------------------------------------------------------------
+
 	{
-		slug: 'StravaClone',
-		color: 'purple',
+		slug: 'WhatsappClone',
+		color: 'green',
 		description:
-			'I embarked on this project at the onset of the new year with a dual purpose in mind. Primarily, I aimed to elevate my software development proficiency beyond rudimentary text-based applications in Python. The secondary motivation behind this endeavour is rooted in my decision to craft an activity tracker, a deliberate choice among the myriad of applications one could develop. \n\n My inspiration for choosing an activity tracker stems from my current pursuit of training for an Ironman 70.3 triathlon. The diverse range of activities involved in my training regimen has captivated my interest. Harnessing the wealth of activity data generated during these rigorous sessions, I am utilizing it as a robust testing ground to refine and advance the capabilities of this application. Through this ongoing project, I am not only honing my coding skills but also creating a tool that resonates with my personal journey and passion for fitness. \n\n A more detailed overview of this project, how it\'s progressing, and the problems I\'ve encountered can be found in the README file on the GitHub Repo.',
+			'',
 		shortDescription:
-			'A work in progress activity tracker.',
-		links: [{ to: 'https://github.com/MJ-Peters/Live-Fitness-Tracker', label: 'GitHub' }],
+			'A work in progress messaging application.',
+		links: [{ to: '', label: 'GitHub' }],
 		logo: Assets.StravaClone,
 		name: 'Outdoor Activity Tracker',
 		period: {

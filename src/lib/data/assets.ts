@@ -32,7 +32,8 @@ const Assets = {
 	Xamarin: a('xamarin.svg'),
 	TypeScript: a('ts.png'),
 	VueJs: a('vue.png'),
-	ReactJs: a('react.svg'),
+	React: a('react.svg'),
+	ReactNav: a('ReactNavigation.png'),
 	Dart: a('dart.png'),
 	Kotlin: a('kotlin.png'),
 	Python: a('python.png'),
@@ -77,7 +78,8 @@ const Assets = {
 	UoB: a('UoB.png'),
 	UoS: a('UoS.png'),
 	StravaClone: a('StravaCloneLogo.png'),
-	DPay: a('DPayLogo.png')
+	DPay: a('DPayLogo.png'),
+	Expo: a('graphql-icon.svg')
 };
 
 export default Assets;
