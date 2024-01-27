@@ -10,7 +10,7 @@ export type ArrayElementType<ArrayType extends readonly unknown[]> =
 const MY_SKILLS = [
 	s({
 		slug: 'python',
-		color: 'blue',
+		color: '#3776ab',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent orci enim, congue sit amet justo eget, consequat sollicitudin libero. Etiam iaculis lectus tempor, hendrerit enim in, luctus arcu. Maecenas id enim et nibh ullamcorper auctor ac eu est. Donec imperdiet, diam quis malesuada faucibus, nibh ex gravida sapien, posuere pharetra nunc libero tristique turpis. Sed egestas laoreet semper. In hac habitasse platea dictumst. Praesent vitae est nec felis maximus facilisis. Duis luctus dui id urna tristique varius. Ut vulputate leo arcu, non bibendum arcu pulvinar eget. Fusce semper elit ut congue lacinia. Suspendisse magna diam, tempus vitae interdum eget, dictum vitae nisl. Praesent quis fringilla tortor. Donec vitae sagittis dui.',
 		logo: Assets.Python,
@@ -18,7 +18,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'azure',
-		color: 'blue',
+		color: '#0080ff',
 		description:
 			'',
 		logo: Assets.Azure,
@@ -26,7 +26,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'aws',
-		color: 'orange',
+		color: '#FF9900',
 		description:
 			'',
 		logo: Assets.AWS,
@@ -34,7 +34,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'js',
-		color: 'yellow',
+		color: '#f7df1e',
 		description:
 			'',
 		logo: Assets.JavaScript,
@@ -42,7 +42,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'react-native',
-		color: 'cornflowerblue',
+		color: '#61DBFB',
 		description:
 			'',
 		logo: Assets.React,
@@ -50,7 +50,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'graphql',
-		color: 'hotpink',
+		color: '#E10098',
 		description:
 			'',
 		logo: Assets.GraphQL,
@@ -66,7 +66,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'ms-sql-server',
-		color: 'red',
+		color: '#A91D22',
 		description:
 			'',
 		logo: Assets.MsSQLServer,
@@ -74,7 +74,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'css',
-		color: 'blue',
+		color: '#264de4',
 		description:
 			'',
 		logo: Assets.CSS,
@@ -82,7 +82,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'html',
-		color: 'orange',
+		color: '#e34c26',
 		description:
 			'',
 		logo: Assets.HTML,
