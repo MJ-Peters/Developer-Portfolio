@@ -72,7 +72,7 @@ const Assets = {
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
 	Postcss: a('postcss.svg'),
-	MsSQLServer: a('MS-SQL-Server.svg'),
+	MsSQLServer: a('MS-SQL-Server.png'),
 	Azure: a('Azure.svg'),
 	EY: a('EY.svg'),
 	UoB: a('UoB.png'),
