@@ -90,7 +90,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'expo',
-		color: 'navy',
+		color: 'black',
 		description:
 			'',
 		logo: Assets.Expo,
