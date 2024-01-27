@@ -79,7 +79,7 @@ const Assets = {
 	UoS: a('UoS.png'),
 	StravaClone: a('StravaCloneLogo.png'),
 	DPay: a('DPayLogo.png'),
-	Expo: a('ExpoLogo.png'),
+	Expo: a('ExpoLogo.svg'),
 	GraphQL: a('graphql-icon.svg')
 };
 
