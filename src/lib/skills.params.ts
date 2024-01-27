@@ -50,7 +50,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'graphql',
-		color: 'pink',
+		color: 'hotpink',
 		description:
 			'',
 		logo: Assets.GraphQL,
