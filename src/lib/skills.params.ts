@@ -95,8 +95,7 @@ const MY_SKILLS = [
 			'',
 		logo: Assets.Expo,
 		name: 'Expo'
-	}),
-	
+	})
 ];
 
 export default MY_SKILLS;
