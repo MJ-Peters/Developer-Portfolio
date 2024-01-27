@@ -32,7 +32,7 @@ const MY_PROJECTS: Array<Project> = [
 			'',
 		shortDescription:
 			'A work in progress messaging application.',
-		links: [{ to: '', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/MJ-Peters/ChatApp', label: 'GitHub' }],
 		logo: Assets.ChatApp,
 		name: 'ChatApp',
 		period: {
