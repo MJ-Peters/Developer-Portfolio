@@ -42,7 +42,7 @@ const MY_SKILLS = [
 	}),
 	s({
 		slug: 'react-native',
-		color: 'blue',
+		color: 'cornflowerblue',
 		description:
 			'',
 		logo: Assets.React,
