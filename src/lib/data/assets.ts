@@ -79,7 +79,8 @@ const Assets = {
 	UoS: a('UoS.png'),
 	StravaClone: a('StravaCloneLogo.png'),
 	DPay: a('DPayLogo.png'),
-	Expo: a('graphql-icon.svg')
+	Expo: a('ExpoLogo.png'),
+	GraphQL: a('graphql-icon.svg')
 };
 
 export default Assets;
