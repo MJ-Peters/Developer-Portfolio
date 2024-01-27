@@ -33,10 +33,10 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'A work in progress messaging application.',
 		links: [{ to: '', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		logo: Assets.ChatApp,
 		name: 'ChatApp',
 		period: {
-			 from: new Date(2024, 0)
+			 from: new Date(2024, 0, 20)
 		},
 		skills: getSkills('react-native', 'js', 'react-navigation', 'expo', 'aws', 'graphql'),
 		type: 'Full-Stack App Development'
