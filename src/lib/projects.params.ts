@@ -33,12 +33,12 @@ const MY_PROJECTS: Array<Project> = [
 		shortDescription:
 			'A work in progress messaging application.',
 		links: [{ to: '', label: 'GitHub' }],
-		logo: Assets.StravaClone,
-		name: 'Outdoor Activity Tracker',
+		logo: Assets.Unknown,
+		name: 'ChatApp',
 		period: {
 			 from: new Date(2024, 0)
 		},
-		skills: getSkills('python'),
+		skills: getSkills('react-native', 'js', 'react-navigation', 'expo', 'aws', 'graphql'),
 		type: 'Full-Stack App Development'
 	},
 	//-------------------------------------------------------------------------------------------

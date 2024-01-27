@@ -49,7 +49,7 @@ const MY_SKILLS = [
 		name: 'React Native'
 	}),
 	s({
-		slug: 'GraphQL',
+		slug: 'graphql',
 		color: 'pink',
 		description:
 			'',
