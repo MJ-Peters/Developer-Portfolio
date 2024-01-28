@@ -29,7 +29,7 @@ const MY_PROJECTS: Array<Project> = [
 		slug: 'WhatsappClone',
 		color: 'green',
 		description:
-			'',
+			'I am currently in the process of developing my inaugural mobile app project, following a guided YouTube video. Employing React Native, JavaScript, React Navigation, and Expo for the front end, I am creating a user-friendly  interface to develop experience using these key front end technologies. On the backend, I am integrating AWS Amplify, AWS AppSync, and GraphQL to facilitate real-time communication. This ongoing project not only represents my introduction to mobile app development but also underscores my commitment to developing my own app, a challenge I plan to undertake as soon as I have a more firm grasp on JavaScript and React native.',
 		shortDescription:
 			'A work in progress messaging application.',
 		links: [{ to: 'https://github.com/MJ-Peters/ChatApp', label: 'GitHub' }],
