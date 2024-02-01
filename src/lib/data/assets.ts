@@ -81,7 +81,8 @@ const Assets = {
 	DPay: a('DPayLogo.png'),
 	Expo: a('ExpoLogo.png'),
 	GraphQL: a('graphql-icon.svg'),
-	ChatApp: a('ChatApp.png')
+	ChatApp: a('ChatApp.png'),
+	PowerBI: a('PowerBI.png')
 };
 
 export default Assets;

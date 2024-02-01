@@ -33,6 +33,14 @@ const MY_SKILLS = [
 		name: 'Amazon Web Services'
 	}),
 	s({
+		slug: 'powerbi',
+		color: '#f6d958',
+		description:
+			'',
+		logo: Assets.PowerBI,
+		name: 'Power BI'
+	}),
+	s({
 		slug: 'js',
 		color: '#f7df1e',
 		description:

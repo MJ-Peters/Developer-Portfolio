@@ -13,9 +13,9 @@ const MY_EXPERIENCES: Array<Experience> = [
 		type: 'Data Science and Data Analytics',
 		location: 'London, UK',
 		period: { from: new Date(2023, 8) },
-		skills: getSkills('python', 'ms-sql-server', 'azure'),
+		skills: getSkills('python', 'ms-sql-server', 'azure', 'powerbi'),
 		name: 'Forensic Data Analyst - Associate',
-		color: 'yellow',
+		color: '#ffe600',
 		links: [],
 		logo: Assets.EY,
 		shortDescription: ''
